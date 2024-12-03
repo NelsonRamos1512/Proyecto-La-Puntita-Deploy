@@ -16,7 +16,7 @@ import MiCuentaAdmin from './pages/PerfilAdmin/MiCuentaAdmin'; // Cambiado a Per
 import Pedido from './pages/PerfilAdmin/Pedido'; // Agregado
 import ModificarCarta from './pages/PerfilAdmin/ModificarCarta';
 import AppBarAdmin from './pages/PerfilAdmin/AppBarAdmin';
-
+//comentando
 export default function App() {
   return (
     <AuthProvider>
