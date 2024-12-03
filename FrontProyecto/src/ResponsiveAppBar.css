@@ -1,0 +1,51 @@
+/* Estilos personalizados para AppBar */
+
+.customAppBar {
+    background-color: #f58ab8; /* Color rosado consistente con el estilo de la aplicación */
+    color: white;
+}
+
+.customAppBar .MuiTypography-root {
+    font-weight: bold;
+}
+
+.customAppBar .MuiButton-root:hover {
+    background-color: #fd547d; /* Color rosado más oscuro al hacer hover */
+}
+
+/* Estilos para los botones de Delivery y Recojo en Tienda */
+
+.deliveryButton {
+    background-color: #fd547d;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.deliveryButton:hover {
+    background-color: #f7a4bb;
+}
+
+.pickupButton {
+    color: #fd547d;
+    border-color: #fd547d;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.pickupButton:hover {
+    background-color: rgba(253, 84, 125, 0.1);
+    border-color: #fd547d;
+}
+
+.iniciarSesionButton {
+    background-color: #fd547d;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.iniciarSesionButton:hover {
+    background-color: #f7a4bb;
+}
+

@@ -1,0 +1,191 @@
+.detalles-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 400px;
+    height: 100vh;
+    background-color: #fff;
+    border-left: 2px solid #ddd;
+    padding: 20px;
+    box-shadow: -3px 0 15px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.close-button {
+    align-self: flex-end;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #333;
+}
+
+.producto-imagen-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.producto-imagen {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.producto-detalles h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.producto-detalles p {
+    color: #666;
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.producto-precio {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2d6a4f;
+    margin-bottom: 15px;
+}
+
+/* Opciones de selección */
+
+/* Opciones de selección */
+.opciones-container {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.opciones-container h3 {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.opcion-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.opcion-item:last-child {
+    border-bottom: none;
+}
+
+.opcion-imagen {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.opcion-nombre {
+    flex: 1;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+/* Estilo personalizado para los controles de selección */
+.opcion-checkbox,
+.opcion-radio {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #888;
+    border-radius: 50%; /* Círculo para el estilo personalizado */
+    background-color: white;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Estilo al seleccionar el checkbox o radio */
+.opcion-checkbox:checked,
+.opcion-radio:checked {
+    background-color: #2d6a4f;
+    border-color: #2d6a4f;
+}
+
+.opcion-checkbox:checked::before,
+.opcion-radio:checked::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Efecto al pasar el cursor */
+.opcion-checkbox:hover,
+.opcion-radio:hover {
+    border-color: #2d6a4f;
+}
+/* Control de cantidad */
+.cantidad-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+
+.cantidad-boton {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #333;
+}
+
+.cantidad-boton.basura {
+    color: #888;
+    font-size: 1.2rem;
+    margin-right: 10px;
+    padding: 2px;
+}
+
+.cantidad-boton.basura:hover {
+    color: #e74c3c;
+}
+
+.cantidad {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Botón de agregar al carrito */
+.add-to-cart {
+    padding: 15px;
+    background-color: #2d6a4f;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: auto;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+    background-color: #245134;
+}

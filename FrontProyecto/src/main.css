@@ -1,0 +1,30 @@
+/* Estilos Globales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fondo oscuro y texto claro por defecto */
+body {
+    background-color: #ffe6f7;
+    color: #cf6cae;
+    font-family: Arial, sans-serif;
+    padding-top: 64px;
+}
+
+/* Opcional: estilo para links */
+a {
+    color: #f7bdda; /* Color de links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px; 
+    padding: 20px; 
+  }

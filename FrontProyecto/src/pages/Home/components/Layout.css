@@ -1,0 +1,51 @@
+/* layout.css */
+
+/* Contenedor del slider */
+.slider-container {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    max-height: 600px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+}
+
+/* Estilo de la imagen del slider */
+.slider {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.8s ease-in-out;
+}
+
+/* Contenedor de los puntos de navegación */
+.dots-container {
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Puntos de navegación */
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #e0a7c2;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dot.active {
+    transform: scale(1.4);
+    background-color: #f263a6;
+
+}
+
+
+

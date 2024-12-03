@@ -1,0 +1,107 @@
+.contacto-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Alinea los títulos en la parte superior */
+    padding: 40px 60px;
+    background-color: #f8c6e6;
+    margin: 0 auto;
+    max-width: 1200px; 
+    padding: 20px; 
+  }
+  
+  .contact-info, .store-info {
+    flex: 1;
+    margin: 0 20px; /* Margen para crear espacio entre los contenedores */
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el contenido dentro de la sección de contáctanos */
+    text-align: center;
+  }
+  
+  .contact-info h2, .store-info h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #d81b60;
+    margin-bottom: 40px;
+  }
+  
+  .social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .social-item-whatsapp,
+  .social-item-instagram,
+  .social-item-facebook {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 80px;
+  }
+  
+  .social-link-whatsapp,
+  .social-link-instagram,
+  .social-link-facebook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+    background-color: #d81b60;
+    border-radius: 50%;
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+    margin-bottom: 10px;
+  }
+  
+  .social-icon-whatsapp,
+  .social-icon-instagram,
+  .social-icon-facebook {
+    font-size: 30px;
+    color: white;
+  }
+  
+  .social-link-whatsapp:hover,
+  .social-link-instagram:hover,
+  .social-link-facebook:hover {
+    background-color: #ad1457;
+  }
+  
+  .store-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el contenido dentro de la sección de nuestros locales */
+    text-align: center;
+  }
+  
+
+  .store-item {
+    margin-bottom: 30px; /* Mayor espacio entre cada local */
+  }
+  
+  .store-location {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px; /* Espacio entre el texto y la imagen */
+  }
+  
+  .store-image {
+    width: 200%;
+    height: 300px;
+    background-color: #ad1457;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #999;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
